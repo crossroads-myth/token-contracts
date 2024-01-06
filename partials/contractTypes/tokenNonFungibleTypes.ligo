@@ -79,8 +79,6 @@ type tokenMultiAssetStorageType is record [
     newSuperAdmin           : option(address);
     admins                  : set(address);
     controllerAddress       : address;
-    
-    whitelistContracts      : whitelistContractsType;  
 
     metadata                : metadataType;
     token_metadata          : tokenMetadataType;

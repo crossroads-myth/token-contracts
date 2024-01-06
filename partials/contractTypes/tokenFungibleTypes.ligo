@@ -54,8 +54,6 @@ type tokenFungibleStorageType is record [
     admins                  : set(address);
     controllerAddress       : address;
     
-    whitelistContracts      : whitelistContractsType;  
-
     metadata                : metadataType;
     token_metadata          : tokenMetadataType;
     total_supply            : totalSupplyType;
